@@ -40,13 +40,13 @@ public class testeBasic {
                 .get("booking/492")
                 .then()
                 .statusCode(200)
-                .body("firstname", equalTo("C"))
-                .body("lastname", equalTo("Talmo"))
-                .body("totalprice", equalTo(7777))
+                .body("firstname", equalTo("Josh"))
+                .body("lastname", equalTo("Allen"))
+                .body("totalprice", equalTo(111))
                 .body("depositpaid", equalTo(true))
-                .body("bookingdates.checkin", equalTo("2025-01-01"))
-                .body("bookingdates.checkout", equalTo("2025-01-11"))
-                .body("additionalneeds", equalTo("Breakfast"));
+                .body("bookingdates.checkin", equalTo("2018-01-01"))
+                .body("bookingdates.checkout", equalTo("2019-01-01"))
+                .body("additionalneeds", equalTo("super bowls"));
 
     }
 
