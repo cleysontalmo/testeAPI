@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 import static io.restassured.RestAssured.given;
 
-public class testeBasic {
+public class teste {
 
     public String lerJson(String caminhoArquivo) throws IOException {
         return new String(Files.readAllBytes(Paths.get(caminhoArquivo)));
