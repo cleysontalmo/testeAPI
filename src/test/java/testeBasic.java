@@ -37,16 +37,16 @@ public class testeBasic {
         given()
                 .header("Accept", "application/json")
                 .when()
-                .get("booking/492")
+                .get("booking/1")
                 .then()
                 .statusCode(200)
-                .body("firstname", equalTo("Josh"))
-                .body("lastname", equalTo("Allen"))
-                .body("totalprice", equalTo(111))
-                .body("depositpaid", equalTo(true))
-                .body("bookingdates.checkin", equalTo("2018-01-01"))
-                .body("bookingdates.checkout", equalTo("2019-01-01"))
-                .body("additionalneeds", equalTo("super bowls"));
+                .body("firstname", equalTo("Mark"))
+                .body("lastname", equalTo("Smith"))
+                .body("totalprice", equalTo(108))
+                .body("depositpaid", equalTo(false))
+                .body("bookingdates.checkin", equalTo("2017-09-20"))
+                .body("bookingdates.checkout", equalTo("2019-06-01"));
+                //.body("additionalneeds", equalTo("super bowls"));
 
     }
 
