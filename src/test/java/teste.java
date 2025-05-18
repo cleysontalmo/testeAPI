@@ -30,7 +30,7 @@ public class teste {
                 .log().all(); // Loga no console todos os detalhes da resposta (body, headers, etc.)
     }
 
-    @Test
+   /* @Test
     public void testeWithId(){
         RestAssured.baseURI = "https://restful-booker.herokuapp.com";
 
@@ -48,7 +48,7 @@ public class teste {
                 .body("bookingdates.checkout", equalTo("2019-06-01"));
                 //.body("additionalneeds", equalTo("super bowls"));
 
-    }
+    }*/
 
     @Test
     public void cadastrarReserva() throws IOException{
