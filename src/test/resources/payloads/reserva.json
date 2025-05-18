@@ -1,0 +1,11 @@
+{
+  "firstname" : "C",
+  "lastname" : "Talmo",
+  "totalprice" : 7777,
+  "depositpaid" : true,
+  "bookingdates" : {
+    "checkin" : "2025-01-01",
+    "checkout" : "2025-01-11"
+  },
+  "additionalneeds" : "Breakfast"
+}
